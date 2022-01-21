@@ -9,7 +9,7 @@ app.use(cors());
 
 const port = 8001;
 
-app.get('/nft', (req, res) => {
+app.get('/products', (req, res) => {
     res.sendFile(path.join(__dirname, 'nft-list.json'));
 });
 

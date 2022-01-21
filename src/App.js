@@ -1,12 +1,16 @@
 
 import './App.css';
 import React from "react";
+import { Provider } from 'react-redux';
 import { MarketView } from './views/marketView';
+import { store } from './store/store';
 function App() {
   return (
-    <div className="App">
-      <MarketView></MarketView>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <MarketView></MarketView>
+      </div>
+    </Provider>
   );
 }
 
