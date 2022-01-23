@@ -13,11 +13,11 @@ export const Catalog = () => {
     const handleTabRedirect = () => {
         getProductList(dispatch)
     }
-
+    //
     return (
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-2 p-5 ">
+        <div className="flex flex-wrap justify-between">
             {
-                productList.map((product) => <ProductCard key={product.id} imageUrl={product.imageUrl} ></ProductCard>)
+                productList.map((product) => <div className="" key={product.id} ><ProductCard key={product.id} imageUrl={product.imageUrl} ></ProductCard></div>)
             }
         </div>
     )

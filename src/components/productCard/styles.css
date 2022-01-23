@@ -1,3 +1,46 @@
 .primary-card {
-    background-color: #29292B;
+    background-color: #303339;
+}
+
+/* TOD: update card size for remaining screen sizes */
+@media screen and (min-width: 640px) and (max-width: 766px) {
+    .card-size {
+        width: calc((100vw/6) - 40px);
+        height: calc(100vw/5);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card-size {
+        width: calc((100vw/6) - 40px);
+        height: calc(100vw/5);
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .card-size {
+        width: calc((100vw/6) - 40px);
+        height: calc(100vw/5);
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1535px) {
+    .card-size {
+        width: calc((100vw/5) - 40px);
+        height: calc(100vw/5);
+    }
+}
+
+@media screen and (min-width: 1536px) and (max-width: 1688px) {
+    .card-size {
+        width: calc((100vw/5) - 40px);
+        height: calc((100vw/5) + 50px);
+    }
+}
+
+@media screen and (min-width: 1669px) {
+    .card-size {
+        width: calc((100vw/6) - 36px);
+        height: calc((100vw/5)- 10px);
+    }
 }
