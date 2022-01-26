@@ -1,5 +1,24 @@
 .primary-card {
     background-color: #303339;
+    border: 1px solid rgb(21, 27, 34);
+}
+
+.collection-name {
+    color: rgb(138, 147, 155);
+}
+
+.overflow-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.product-name {
+    color: rgb(229, 232, 235);
+}
+
+.primary-blue {
+    color: #2081E2
 }
 
 /* TOD: update card size for remaining screen sizes */
@@ -41,6 +60,6 @@
 @media screen and (min-width: 1669px) {
     .card-size {
         width: calc((100vw/6) - 36px);
-        height: calc((100vw/5)- 10px);
+        height: calc((100vw/5) - 10px);
     }
 }
