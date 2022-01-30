@@ -17,8 +17,17 @@
     color: rgb(229, 232, 235);
 }
 
-.primary-blue {
-    color: #2081E2
+.min-img-size {
+    /* min-height: 282px;
+    min-width: 282px; */
+}
+
+.card-text-xs {
+    font-size: 0.8rem;
+}
+
+.card-text-sm {
+    font-size: 0.9rem;
 }
 
 /* TOD: update card size for remaining screen sizes */
@@ -60,6 +69,6 @@
 @media screen and (min-width: 1669px) {
     .card-size {
         width: calc((100vw/6) - 36px);
-        height: calc((100vw/5) - 10px);
+        height: calc((100vw/5) + 25px);
     }
 }
