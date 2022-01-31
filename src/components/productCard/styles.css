@@ -17,7 +17,8 @@
     color: rgb(229, 232, 235);
 }
 
-.min-img-size {
+.card-info {
+    padding-top: 8%;
     /* min-height: 282px;
     min-width: 282px; */
 }
@@ -40,29 +41,39 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .card-size {
-        width: calc((100vw/6) - 40px);
-        height: calc(100vw/5);
+        width: calc((100vw/3) - 40px);
+        height: calc(100vw/3 + 80px);
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .card-size {
-        width: calc((100vw/6) - 40px);
-        height: calc(100vw/5);
+        width: calc((100vw/4) - 40px);
+        height: calc(100vw/3 - 20px);
+    }
+
+    .card-info {
+        padding-top: 6%;
     }
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1535px) {
     .card-size {
-        width: calc((100vw/5) - 40px);
-        height: calc(100vw/5);
+        width: calc((100vw/4) - 40px);
+        height: calc(100vw/3 - 20px);
     }
 }
 
 @media screen and (min-width: 1536px) and (max-width: 1688px) {
     .card-size {
         width: calc((100vw/5) - 40px);
-        height: calc((100vw/5) + 50px);
+        height: calc((100vw/4));
+    }
+
+    .card-info {
+        padding-top: 9%;
+        /* min-height: 282px;
+        min-width: 282px; */
     }
 }
 
@@ -70,5 +81,11 @@
     .card-size {
         width: calc((100vw/6) - 36px);
         height: calc((100vw/5) + 25px);
+    }
+
+    .card-info {
+        padding-top: 8%;
+        /* min-height: 282px;
+        min-width: 282px; */
     }
 }

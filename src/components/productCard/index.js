@@ -43,7 +43,7 @@ const ProductCard = ({ product }) => {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-between pt-6 pl-3 pr-3">
+                <div className="flex justify-between card-info pl-3 pr-3">
                     {buyOption ? <div className="text-sm font-semibold primary-blue"> Buy now </div> : <div></div>}
                     <div className="collection-name text-lg" >
                         <FontAwesomeIcon icon={faHeart} ></FontAwesomeIcon>
